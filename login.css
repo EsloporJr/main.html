@@ -1,0 +1,121 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.dropdown-content form {
+    margin-bottom: 20px;
+	padding: 10px;
+	font-family:Oswald, sans-serif;
+}
+
+.login {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	color: #402B3A;
+}
+
+.dh {
+	font-size: 12px;
+	color: #402B3A;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.label {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 3px;
+	color: #402B3A;
+}
+
+.dropdown-content hr {
+	margin-bottom: 15px;
+}
+
+.dropdown-content .hr2 {
+	margin-top: 38px;
+}
+
+.dropdown-content input[type="text"],
+.dropdown-content input[type="password"] {
+	font-family:Oswald, sans-serif;
+    width: 100%;
+    padding: 10px 20px;
+	margin-top: 10px; 
+    margin-bottom: 10px; 
+	font-size: 12px;
+    border: 2px solid #7E6363;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #F0EEED;
+}
+
+
+.dropdown-content button {
+	font-family:Oswald, sans-serif;
+	font-weight: bold;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #fff; 
+    color: #402B3A;
+    border: 2px solid #7E6363;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.dropdown-content button:hover {
+    background-color: #503C3C; 
+    color: #fff; 
+}
+
+.dropdown-content .creacc {
+    width: 100%;
+    padding: 12px 20px;
+	margin-top: 20px;
+    background-color: #503C3C; 
+    color: #fff;
+    border: 2px solid #7E6363;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.dropdown-content .creacc:hover {
+    background-color: #750E21; 
+    color: #fff; 
+	border: 2px solid #750E21;
+	
+}
+
+
+.dropdown-content p {
+    margin-top: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.user-icon {
+    text-decoration: none;
+    color: inherit;
+}
+
